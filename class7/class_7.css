@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: aeonil;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: #111;
+}
+
+#page1,#page2,#page3{
+    height: 100vh;
+    width: 100%;
+    padding: 5vw;
+}
+#move{
+    background-color: #D8FF04;
+    display: flex;
+    padding: 3vw;
+    overflow: hidden;
+}
+.marquee{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+    padding: 0 1.5vw;
+    /* background-color: red; */
+    transform: translate(-100%);
+}
+.marquee h1{
+    font: 17px;
+}
+.marquee img{
+    height: 30px;
+}

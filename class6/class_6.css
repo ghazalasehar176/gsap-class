@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: aeonil;
+    box-sizing: border-box;
+    color: white;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 20px;
+    overflow: hidden;
+}
+
+h1 span{
+    display: inline-block;
+}

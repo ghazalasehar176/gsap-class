@@ -1,14 +1,14 @@
 //GreenSock Animation Platform(gsap)
 
 
-/* //start se end tak jany ky liye gsap.to()
+//start se end tak jany ky liye gsap.to()
 gsap.to("#box1" , {
     x:1000,
     duration:2,
     delay:1,
 })
 
-/* gsap.to("#box2" , {
+gsap.to("#box2" , {
     x:500,
     y:500,
     duration:2,
@@ -37,11 +37,8 @@ gsap.to("h1" , {
     y:30
 })
 
-*/
 
-
-
-/* //end se start take ky liye gsap.from()
+//end se start take ky liye gsap.from()
 gsap.from("#box3" , {
     x:1000,
     duration:2,
@@ -61,15 +58,9 @@ gsap.from("h2" , {
     stagger:0.3, //1,0.1 ,0,or more
 })
     
-*/
-
-
-
-
-
 
 //box time with calculation
-/* gsap.to("#box4" , {
+gsap.to("#box4" , {
     x:1100,
     duration:1.5,
     delay:1,
@@ -88,12 +79,12 @@ gsap.to("#box6" , {
     delay:4,
     rotate:360,
     scale:0.5,
-}) */
+})  
 
 
 
 
-/* //timeline
+ //timeline
 var t1 = gsap.timeline()
 
 t1.to("#box4" , {
@@ -109,7 +100,7 @@ t1.to("#box5" , {
 t1.to("#box6" , {
     x:1200,
     duration:1.5,
-}) */
+}) 
 
 
 var tl =gsap.timeline()
